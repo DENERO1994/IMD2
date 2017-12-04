@@ -1,0 +1,26 @@
+.navbar {
+	margin-bottom: 0;
+	background: linear-gradient(to top, #000000, #595959);
+	height: 10rem;
+	padding: 1rem;
+}
+
+.navbar-brand {
+	height: 100%;
+}
+
+.nav {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.navImage {
+	border-radius: 50%;
+	height: 100%;
+	width: 100%;
+}
+
+.navbar-header {
+	width: 10%;
+	height: 100%;
+}

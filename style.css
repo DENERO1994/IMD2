@@ -1,0 +1,33 @@
+body {
+    padding-top: 50px;
+}
+
+/* .jumbotron {
+    background-image: url('./assets/images/coding.jpg');
+} */
+
+.profilePictureLinks {
+    width: 40%;
+}
+
+.profilePicture {
+    text-align: center;
+}
+
+.coverPhoto {
+    height: 30rem;
+    width: 30rem;
+}
+
+.links {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.summaryContact {
+    width: 60%;
+}
+
+.fa-github, .fa-twitter {
+    padding-right: 10px;
+}

@@ -1,31 +1,42 @@
 body {
     padding-top: 50px;
+    color: red;
 }
 
-/* .jumbotron {
+ .jumbotron {
     background-image: url('./assets/images/coding.jpg');
-} */
+} 
 
 .profilePictureLinks {
     width: 40%;
+    height: 30rem;
+    float: left;
 }
 
 .profilePicture {
     text-align: center;
+    height: 32rem;
 }
 
 .coverPhoto {
     height: 30rem;
     width: 30rem;
+    opacity: 0.8;
 }
 
-.links {
-    padding-top: 10px;
-    text-align: center;
+.tallaghtPhoto, .kevinsPhoto, .crumlinPhoto {
+    height: 7rem;
+    width: 12rem;
+}
+
+.panel-heading {
+    cursor: pointer;
 }
 
 .summaryContact {
-    width: 60%;
+    height: 30rem;
+    margin-left: 40%;
+    background-color: black;
 }
 
 .fa-github, .fa-twitter {

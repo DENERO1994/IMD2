@@ -1,10 +1,5 @@
 body {
     padding-top: 50px;
-    color: red;
-}
-
- .jumbotron {
-    background-image: url('./assets/images/coding.jpg');
 } 
 
 .profilePictureLinks {
@@ -19,7 +14,7 @@ body {
 }
 
 .coverPhoto {
-    height: 30rem;
+    height: 25rem;
     width: 30rem;
     opacity: 0.8;
 }
@@ -36,7 +31,6 @@ body {
 .summaryContact {
     height: 30rem;
     margin-left: 40%;
-    background-color: black;
 }
 
 .fa-github, .fa-twitter {

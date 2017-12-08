@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 <head>
@@ -34,9 +34,17 @@
                     <li><a href="#sec1"><i class="fa fa-smile-o"></i>About Me</a></li>
                     <li><a href="#sec2"><i class="fa fa-graduation-cap"></i>Education</a></li>
                     <li><a href="#sec3"><i class="fa fa-briefcase"></i>Experience</a></li>
-                    <li><a href="#sec4"><i class="fa fa-code"></i>Projects</a></li>
-                    <li><a href="#sec5"><i class="fa fa-book"></i>Skills</a></li>
-                    <li><a href="#sec6"><i class="fa fa-trophy"></i>Interests</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">
+                            Other
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#sec4"><i class="fa fa-code"></i>Projects</a></li>
+                            <li><a href="#sec5"><i class="fa fa-book"></i>Skills</a></li>
+                            <li><a href="#sec6"><i class="fa fa-trophy"></i>Interests</a></li>
+                        </ul>
+                    </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="./features.html">Bootstrap Features</a></li>
@@ -52,20 +60,24 @@
     </nav>
     <div class="container">
         <div class="jumbotron">
-            <div class="profilePictureLinks">
-                <img src="./assets/images/cover.png" class="coverPhoto img-circle">
-            </div>
-            <div class="summaryContact"> 
-                <h1>Name Here styled</h1>
-                <p>I have designed and developed many programs in java and C++ and I’m now starting to work with C# to add 
-                    to the other languages I have learned. I Have customer interaction experience through speaking face-to-face and over the phone and I have gained an abundance of
-                    experience and knowledg</p>
-                <p>fix colour and style of links</p>
-                <i class="fa fa-github-square fa-3x"></i>
-                <i class="fa fa-twitter-square fa-3x"></i>
-                <i class="fa fa-linkedin-square fa-3x"></i>
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Contact Me</button>
-                <a type="button" class="btn btn-success" role="button" href="https://drive.google.com/uc?export=download&id=1sGpiCcLMlC54WcKMe0oDdvB2PMO7XBKa"><i class="fa fa-file-text"></i>Download my CV</a>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./assets/images/cover.png" class="coverPhoto img-circle">
+                </div>
+                <div class="col-md-8">
+                    <h1>Name Here styled</h1>
+                    <p>
+                        I have designed and developed many programs in java and C++ and I’m now starting to work with C# to add
+                        to the other languages I have learned. I Have customer interaction experience through speaking face-to-face and over the phone and I have gained an abundance of
+                        experience and knowledg
+                    </p>
+                    <p>fix colour and style of links</p>
+                    <i class="fa fa-github-square fa-3x"></i>
+                    <i class="fa fa-twitter-square fa-3x"></i>
+                    <i class="fa fa-linkedin-square fa-3x"></i>
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Contact Me</button>
+                    <a type="button" class="btn btn-success" role="button" href="https://drive.google.com/uc?export=download&id=1sGpiCcLMlC54WcKMe0oDdvB2PMO7XBKa"><i class="fa fa-file-text"></i>Download my CV</a>
+                </div>
             </div>
         </div>
 
@@ -78,11 +90,12 @@
             <div class="panel-group" id="accordion">
                 <div class="panel panel-default">
                     <div class="panel-heading" href="#collapse1" data-toggle="collapse" data-parent="#accordion">
-                        <h4 class="panel-title">
+                        <h4 class="panel-title" id="myToggle">
                             <img src="./assets/images/ittallaght.png" class="tallaghtPhoto">
+                            <i class="fa fa-chevron-down fa-pull-right fa-2x expand"></i>
                         </h4>
                     </div>
-                    <div id="collapse1" class="panel-collapse collapse in">
+                    <div id="collapse1" class="panel-collapse collapse">
                         <div class="panel-body">
                             <ul class="nav nav-tabs">
                                 <li class="active"><a data-toggle="tab" href="#year1">Year 1</a></li>
@@ -298,8 +311,9 @@
 
                 <div class="panel panel-default">
                     <div class="panel-heading" href="#collapse2" data-toggle="collapse" data-parent="#accordion">
-                        <h4 class="panel-title">
+                        <h4 class="panel-title" id="myToggle1">
                             <img src="./assets/images/crumlin.png" class="crumlinPhoto">
+                            <i class="fa fa-chevron-down fa-pull-right fa-2x expand"></i>
                         </h4>
                     </div>
                     <div id="collapse2" class="panel-collapse collapse">
@@ -308,8 +322,9 @@
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading" href="#collapse3" data-toggle="collapse" data-parent="#accordion">
-                        <h4 class="panel-title">
+                        <h4 class="panel-title" id="myToggle2">
                             <img src="./assets/images/kevins.jpg" class="kevinsPhoto">
+                            <i class="fa fa-chevron-down fa-pull-right fa-2x expand"></i>
                         </h4>
                     </div>
                     <div id="collapse3" class="panel-collapse collapse">

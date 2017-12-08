@@ -15,4 +15,13 @@ $(document).ready(function(){
       });
     }
   });
+
+  function toggleIcon(e) {
+      $(e.target)
+          .prev('.panel-heading')
+          .find(".expand")
+          .toggleClass('fa-chevron-down fa-chevron-up');
+  }
+  $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+  $('.panel-group').on('shown.bs.collapse', toggleIcon);
 });

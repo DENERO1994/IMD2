@@ -1,22 +1,10 @@
 body {
     padding-top: 50px;
-} 
-
-.profilePictureLinks {
-    width: 40%;
-    height: 30rem;
-    float: left;
-}
-
-.profilePicture {
-    text-align: center;
-    height: 32rem;
 }
 
 .coverPhoto {
     height: 25rem;
     width: 30rem;
-    opacity: 0.8;
 }
 
 .tallaghtPhoto, .kevinsPhoto, .crumlinPhoto {
@@ -26,11 +14,6 @@ body {
 
 .panel-heading {
     cursor: pointer;
-}
-
-.summaryContact {
-    height: 30rem;
-    margin-left: 40%;
 }
 
 .fa-github, .fa-twitter {

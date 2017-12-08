@@ -12,10 +12,49 @@ body {
     width: 12rem;
 }
 
+.slide {
+    width: 100%;
+    height: 10%;
+}
+
 .panel-heading {
     cursor: pointer;
 }
 
 .fa-github, .fa-twitter {
     padding-right: 10px;
+}
+
+.slide img {
+  width: 100%;
+  height: 225px;
+  max-height: 225px;
+}
+
+.carousel {
+    width: 100%;
+    min-width: 100%;
+}
+
+.progress {
+    height: 3rem;
+    margin-top: 1.5rem;
+}
+
+.progress-label {
+    float: left;
+    margin-right: 3rem;
+}
+
+.progBar {
+    overflow: hidden;
+}
+
+.progress-label i {
+    font-size: 3em;
+}
+
+.skills, .interests {
+    padding-right: 20rem;
+    padding-left: 20rem;
 }

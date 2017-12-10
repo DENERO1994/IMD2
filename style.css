@@ -169,9 +169,10 @@ h3 {
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
         width: 100%;
+        text-align: center;
     }
 
-    .panel b {
+     h4 b {
         display: none;
     }
 }

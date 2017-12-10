@@ -1,11 +1,29 @@
 body {
     padding-top: 50px;
-    background-color: lightgrey;
+    background-color: #cccccc;
 }
 
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand, .dropdown-menu > li > a {
     color: white;
     text-transform: uppercase;
+}
+
+p {
+    font-size: 17px;
+}
+
+.btn-success {
+    background-color: black !important;
+    border-color: black;
+}
+
+.btn-success:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a > i, .dropdown-menu > li > a > i {
+    padding-right: 1rem;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-brand:hover {
@@ -27,8 +45,15 @@ body {
 }
 
 .coverPhoto {
-    height: 100%;
-    width: 100%;
+    height: 25rem;
+    width: 25rem;
+}
+
+.img-circle {
+    border-top-right-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
 }
 
 .tallaghtPhoto, .kevinsPhoto, .crumlinPhoto {
@@ -36,24 +61,30 @@ body {
     width: 12rem;
 }
 
+.sapPhoto {
+    height: 7rem;
+    width: 15rem;
+    margin-bottom: 3rem;
+}
+
 .slide {
     width: 100%;
     height: 10%;
+}
+
+.pad {
+    padding-top: 1rem;
 }
 
 .chip {
     display: inline-block;
     padding: 0 25px;
     margin: 5px;
-    height: 50px;
+    height: 30px;
     font-size: 16px;
-    line-height: 50px;
+    line-height: 30px;
     border-radius: 25px;
     background-color: #f1f1f1;
-}
-
-.panel-heading {
-    cursor: pointer;
 }
 
 .fa-github, .fa-twitter {
@@ -105,6 +136,11 @@ body {
     height: 100%;
 }
 
+.jumbotron a {
+    color: black;
+    padding-right: 1rem;
+}
+
 .panel-heading {
     cursor: default;
 }
@@ -119,4 +155,51 @@ body {
 
 .col-md-8 {
     text-align: center;
+}
+
+h1, .title {
+    margin-top: 0;
+    text-shadow: 2px 2px 5px grey;
+}
+
+h3 {
+    margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .panel b {
+        display: none;
+    }
+}
+
+.about, .education, .experience, .projects, .skills, .interests {
+    padding-top: 5rem;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.fa-chevron-down, .fa-chevron-up {
+    padding-top: 2rem;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
